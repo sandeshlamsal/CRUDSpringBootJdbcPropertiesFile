@@ -1,16 +1,16 @@
 package com.Model;
 import org.springframework.data.annotation.Id;
 
-public class UserModel {
+public class User {
  
  @Id
  public int id;
  public String name;
  public String pass;
  
- public UserModel(){}
+ public User(){}
  
-public UserModel(int id, String name, String pass){
+public User(int id, String name, String pass){
 	 this.id=id;
 	 this.name=name;
 	 this.pass=pass;
